@@ -2,17 +2,14 @@
    BASE / TYPOGRAPHY
    ================================= */
 
-//$header-top-margin: .2rem;
-//$hr-margin: rem-calc(20) !default;
 
+.underline {
+	text-decoration: underline;
+}
 
-//h1.pnl-title {
-//    padding-top: rem-calc(65) !important;
-//}
-//h2.hero {
-//    padding-top: rem-calc(79) !important;   
-//}
-//h4.hero {
-//    padding-top: rem-calc(24.4);
-//}
+// dropdown and front page hero panel
+$lato: Lato, sans-serif;
+
+// Front page
+$open-sans: 'Open Sans', sans-serif;
 

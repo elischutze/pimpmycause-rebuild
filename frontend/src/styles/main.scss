@@ -12,33 +12,36 @@
 // =================
 
 @import "vendors/foundation";
+@import "vendors/selectBox";
+@import "vendors/slick";
+@import "vendors/slick-theme";
 
 // =================
 // Site
 // =================
-
-
-
-@import "components/global";
-@import "components/buttons";
-@import "components/carousel";
-@import "components/dropdown";
-@import "components/cubes";
-
 
 @import "layout/footer";
 @import "layout/forms";
 @import "layout/header";
 @import "layout/nav";
 
-@import "pages/contact";
-@import "pages/home";
-@import "pages/login";
-@import "pages/registration";
-
 @import "utils/functions";
 @import "utils/mixins";
+
+@import "components/global";
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/slider";
+@import "components/cubes";
+@import "components/twitter";
+
+@import "pages/home";
+@import "pages/contact";
+@import "pages/login";
+@import "pages/registration";
 @import "utils/responsive";
+
+
 
 
 

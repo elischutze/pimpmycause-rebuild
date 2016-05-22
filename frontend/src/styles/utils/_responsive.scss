@@ -3,9 +3,9 @@
    ================================= */
 
 
-// ======================================================
+// ******************************************************
 // SMALL - max-width 640px, mobile styles
-// ======================================================
+// ******************************************************
 
 @media #{$small-up} {
     
@@ -17,12 +17,42 @@
         margin-top: rem-calc(10);
         width: 45%;
     } 
-}
+    
+    // HERO PANEL
+    // ==========
+
+    
+    // add space below register with social media on LHS of hero panel at mobile size
+    .h4-hero-socialregister {
+    
+        h4 {
+
+            padding-bottom: rem-calc(15);
+        }
+    }
+    
+    .hero-continue {
+    
+        .button {
+
+            margin-top: rem-calc(20); 
+        }
+    }
+    
+    // jquery dropdown plugin not used at mobile size - prefer the radio button selection
+    // make standard drop down visible - hidden for tablet and desktop
+    #standard-dropdown {
+
+        visibility: visible;  
+    }
+    
+ 
+} // end media query small-up
 
 
-// ======================================================
+// ******************************************************
 // MEDIUM - min-width 641px and max-width 1024px, tablet
-// ======================================================
+// ******************************************************
 
 @media #{$medium-up} {
     
@@ -75,12 +105,23 @@
     .header-register { 
         visibility: hidden;  
     }
+    
+    // HERO PANEL
+    // ==========
+    
+    // jquery dropdown plugin not used at mobile size - prefer the radio button selection
+    // make standard drop down visible - hidden for tablet and desktop
+    #standard-dropdown {
+
+        visibility: hidden;  
+    }
+
 }
 
 
-// ==========================================================================
+// **************************************************************************
 // LARGE: 1025px - 1440px,  X-LARGE: 1441px - 1920px,  XX-LARGE: 1921px - ...
-// ==========================================================================
+// **************************************************************************
 
 @media #{$large-up} {
     
@@ -133,4 +174,14 @@
         visibility: visible;
     }
     
+    // HERO PANEL
+    // ==========
+        
+    .h2-hero {
+    
+        div {
+            white-space: nowrap;
+        }
+    }
+            
 }
